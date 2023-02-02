@@ -1,0 +1,38 @@
+body {
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+}
+
+a {
+	color: white;
+}
+
+.header {
+	display: inline-flex;
+}
+
+.header-item {
+	height: 30px;
+	width: 100px;
+	background-color: blue;
+	text-align: center;
+	color: red;
+}
+
+.content {
+	display: inline-flex;
+}
+
+.content-item {
+	height: 200px;
+	width: 200px;
+	text-align: center;
+
+	background-color: green;
+}
+
+.submit {
+	color: white;
+	background-color: blue;
+}
